@@ -1,0 +1,153 @@
+<mxfile host="app.diagrams.net" agent="opencode">
+  <diagram id="synoptique-e6" name="Synoptique E6">
+    <mxGraphModel dx="2000" dy="1072" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#1F3864;" value="Projet E6 — Synoptique général&#xa;Gestion de stock de pièces pour SAV (Apple)" vertex="1">
+          <mxGeometry height="60" width="900" x="340" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="grpClients" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#2E75B6;verticalAlign=top;fontStyle=1;fontSize=13;dashed=0;align=center;spacingTop=6;" value="UTILISATEURS" vertex="1">
+          <mxGeometry height="180" width="330" x="30" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cliBoutique" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E75B6;fontSize=12;" value="Commerçant&lt;br&gt;Boutique&lt;br&gt;(Consultation du stock)" vertex="1">
+          <mxGeometry height="55" width="270" x="60" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cliTech" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E75B6;fontSize=12;" value="Technicien agrée&#xa;(sortie / entrée de pièces)" vertex="1">
+          <mxGeometry height="55" width="270" x="60" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="grpAcces" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2EFDA;strokeColor=#548235;verticalAlign=top;fontStyle=1;fontSize=13;align=center;spacingTop=6;" value="PLATEFORME APPLICATIVE" vertex="1">
+          <mxGeometry height="520" width="620" x="440" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="auth" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#548235;fontSize=12;" value="Module d&#39;authentification&#xa;connexion sécurisée" vertex="1">
+          <mxGeometry height="45" width="200" x="650" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="webapp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#548235;fontSize=12;" value="Dashboard Web&#xa;responsive" vertex="1">
+          <mxGeometry height="60" width="160" x="480" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="webapp2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#548235;fontSize=12;" value="Prise de RDV&#xa;en ligne" vertex="1">
+          <mxGeometry height="60" width="160" x="860" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="api" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#BF8F00;fontSize=12;" value="API REST&#xa;contrôle d&#39;accès par rôle" vertex="1">
+          <mxGeometry height="50" width="180" x="660" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ifaceBoutique" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#548235;fontSize=12;" value="IHM Commercial&#xa;(stock &amp; RDV)" vertex="1">
+          <mxGeometry height="55" width="170" x="470" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ifaceTech" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#548235;fontSize=12;" value="IHM Technicien&#xa;(entrées / sorties)" vertex="1">
+          <mxGeometry height="55" width="170" x="860" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="services" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#BF8F00;verticalAlign=top;fontStyle=1;fontSize=13;align=center;spacingTop=6;" value="SERVICES MÉTIER" vertex="1">
+          <mxGeometry height="230" width="620" x="440" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="svcRdv" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BF8F00;fontSize=12;" value="Gestion des RDV&#xa;prise / annulation" vertex="1">
+          <mxGeometry height="55" width="170" x="470" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="svcStock" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BF8F00;fontSize=12;" value="Gestion du stock&#xa;pièces par modèle" vertex="1">
+          <mxGeometry height="55" width="170" x="665" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="svcMvt" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BF8F00;fontSize=12;" value="Mouvements&#xa;entrée / sortie (3 clics)" vertex="1">
+          <mxGeometry height="55" width="170" x="860" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="meteo" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BF8F00;fontSize=12;" value="Données&lt;br&gt;température" vertex="1">
+          <mxGeometry height="55" width="265" x="765" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="bdd" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#FBE5D6;strokeColor=#C55A11;fontSize=12;" value="Base de données&lt;br&gt;PostgreSQL — stock,&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="280" x="620" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="grpHard" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#BF8F00;verticalAlign=top;fontStyle=1;fontSize=13;align=center;spacingTop=6;" value="PARTIE MATÉRIELLE (Arduino)" vertex="1">
+          <mxGeometry height="520" width="430" x="1140" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dht" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BF8F00;fontSize=12;" value="Capteur&#xa;température (DHT22)" vertex="1">
+          <mxGeometry height="55" width="160" x="1180" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="lcd1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BF8F00;fontSize=12;" value="Écran LCD&#xa;par modèle / emplacement" vertex="1">
+          <mxGeometry height="55" width="160" x="1380" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="arduino" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE699;strokeColor=#BF8F00;fontSize=12;fontStyle=1;" value="Microcontrôleur&#xa;ARDUINO&#xa;(acquisition + affichage)" vertex="1">
+          <mxGeometry height="80" width="180" x="1275" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="stockPhysique" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#C55A11;fontSize=12;" value="Stock physique&lt;br&gt;batteries Li-ion&lt;br&gt;(20 °C → 25 °C)" vertex="1">
+          <mxGeometry height="75" width="200" x="1200" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="grpAffiche" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F2F2;strokeColor=#808080;verticalAlign=top;fontStyle=1;fontSize=13;align=center;spacingTop=6;" value="AFFICHAGE / SORTIE" vertex="1">
+          <mxGeometry height="230" width="430" x="1140" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="lcdVue" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#808080;fontSize=12;" value="Affichage LCD physique&lt;br&gt;(modèle · quantité)" vertex="1">
+          <mxGeometry height="55" width="180" x="1170" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="webVue" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#808080;fontSize=12;" value="Affichage Web&#xa;du stock des batteries" vertex="1">
+          <mxGeometry height="55" width="180" x="1370" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="notif" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#808080;fontSize=12;" value="Notifications&lt;br&gt;seuil 20°C / 25 °C" vertex="1">
+          <mxGeometry height="55" width="180" x="1270" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="grpClients" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#2E75B6;" target="auth">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="cliBoutique" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#2E75B6;fontSize=10;" target="webapp" value="HTTPS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="cliTech" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#2E75B6;fontSize=10;" target="webapp" value="HTTPS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="auth" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#548235;" target="api">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="webapp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#548235;" target="api">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="webapp2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#548235;" target="api">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="api" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#548235;fontSize=10;" target="ifaceBoutique" value="rôle">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="api" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#548235;fontSize=10;" target="ifaceTech" value="rôle">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="ifaceBoutique" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#548235;" target="svcRdv">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="ifaceTech" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#548235;" target="svcMvt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="svcRdv" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#BF8F00;" target="bdd">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="svcStock" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#BF8F00;" target="bdd">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="svcMvt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#BF8F00;" target="bdd">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#BF8F00;" target="bdd">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="895" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="dht" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#BF8F00;fontSize=10;" target="arduino" value="I2C / série">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="arduino" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#BF8F00;fontSize=10;" target="lcd1" value="broches">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="stockPhysique" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#C55A11;fontSize=10;" target="dht" value="relevé">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="arduino" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#BF8F00;fontSize=10;" target="meteo" value="envoi mesures">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" source="arduino" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#808080;" target="lcdVue">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e20" edge="1" parent="1" source="bdd" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#808080;fontSize=10;" target="webVue" value="stock BDD">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21" edge="1" parent="1" source="meteo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;strokeColor=#808080;fontSize=10;" target="notif" value="température">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
