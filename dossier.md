@@ -27,7 +27,11 @@ direct ( la prise den rendez-vous est également réalisable en ligne.)
 Le système doit bien sûr etre accessible par les techniciens, ces derniers doivent pouvoir renseigner et sortir des pièces du
 stock en fonction des réparations et des livraisons quotidiennes de pièces. Les batterie au lithium n'étant pas les pièces
 les plus tolérantes aux écarts de températures importants, il faut garder le stock dans une plage de températures stable
-entre 17 et 30°C . Les techiniciens pourront donc voir la température en direct, peut importe où ils sont.
+entre 20 et 25°C (plage de températures optimales pour le stockage de batterie lithium) Leger avertissement entre +10°C et 
++40°C (température acceptables mais pas optimales pour les cellules). Alerte sur la page si les températures ne sont pas 
+comprise dans la plage tolérée. Les techiniciens pourront donc voir 
+la température en direct, peut importe où ils sont.
+
 
 Objectifs:
 
