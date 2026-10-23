@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="opencode">
   <diagram id="usecase-sav" name="Diagramme de cas d&#39;utilisation">
-    <mxGraphModel dx="1700" dy="2061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1650" pageHeight="1150" math="0" shadow="0">
+    <mxGraphModel dx="1495" dy="1951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1650" pageHeight="1150" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,7 +66,7 @@
         <mxCell id="e_capteur" edge="1" parent="1" source="act_capteur" style="endArrow=none;html=1;strokeColor=#333333;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="uc10" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d2" edge="1" parent="1" source="uc4" style="endArrow=open;endSize=14;dashed=1;html=1;strokeColor=#666666;labelBackgroundColor=#ffffff;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="uc2" value="&lt;&lt;include&gt;&gt;">
+        <mxCell id="d2" edge="1" parent="1" source="uc4" style="endArrow=open;endSize=14;dashed=1;html=1;strokeColor=#666666;labelBackgroundColor=#ffffff;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="uc2" value="&lt;&lt;extend&gt;&gt;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d3" edge="1" parent="1" source="uc9" style="endArrow=open;endSize=14;dashed=1;html=1;strokeColor=#d79b00;labelBackgroundColor=#ffffff;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="uc8" value="&lt;&lt;extend&gt;&gt; [si température hors plage]">
@@ -83,6 +83,15 @@
             <mxPoint x="968" y="240" as="sourcePoint" />
             <mxPoint x="642.175144212722" y="483.78679656440363" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="54CrSmKCIw1xKpnbeC83-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;Extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="690" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="54CrSmKCIw1xKpnbeC83-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="700" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="54CrSmKCIw1xKpnbeC83-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="690" y="375" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
