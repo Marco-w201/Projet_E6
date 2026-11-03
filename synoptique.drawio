@@ -99,10 +99,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e13" edge="1" parent="1" source="esp" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;" target="dht" value="I2C">
+        <mxCell id="e13" edge="1" parent="1" source="esp" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;" target="dht" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e14" edge="1" parent="1" source="esp" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;" target="led">
+        <mxCell id="e14" edge="1" parent="1" source="esp" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;fontFamily=Verdana;" target="led">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e15" edge="1" parent="1" source="user2" style="endArrow=none;html=1;" target="phone">
